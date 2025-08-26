@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!--Navigation-->
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="./contact.html">Contact Us</a>
+            <a href="./products.html">Products</a>
+        </nav>
+    </header>
+    <h2>Registration form:</h2>
+    <form action="" method="post">
+        <table>
+            <!--Textboxes-->
+            <tr>
+                <td width="100px">Name:</td>
+                <td><input type="text" name="name" placeholder="Enter yor name" required ></td>
+            </tr>
+            <tr>
+                <td width="100px">Surname:</td>
+                <td><input type="text" name="surname" required ></td>
+            </tr>
+            <!--Dropdown List-->
+            <tr>
+                <td width="100px">City:</td>
+                 <td>
+                    <select name="city">
+                        <option>--Select--</option>
+                        <option>Durban</option>
+                        <option>Cape Town</option>
+                        <option>Polokwane</option>
+                        <option>Johannesburg</option>
+                        <option>Mbombela</option>
+                    </select>      
+                 </td>
+                 <!--Radio Buttons-->
+                 <tr>
+                    <td width="100px">Gender:</td>
+                    <td><input type="radio" checked="checked" name="male" value="male">Male</td>
+                 </tr>
+            <tr>
+            <td width="100px">Gender:</td>
+                    <td><input type="radio" name="female" value="female">Female</td>
+            </tr>
+            <!--Checkboxes-->
+            <tr>
+                <td width="100px">Where did you hear about us?</td>
+                <td><input type="checkbox" name="television" value="television">Television</td>
+            </tr>
+            <tr>
+                <td width="100px"></td>
+                <td><input type="checkbox" name="newspaper" value="newspaper">Newspaper</td>
+            </tr>
+            <tr>
+                <td width="100px"></td>
+                <td><input type="checkbox" name="internet" value="internet">Internet</td>
+            </tr>
+            <tr>
+                <td width="100px"></td>
+                <td><input type="checkbox" name="radio" value="radio">Radio</td>
+            </tr>
+            <!--Attachment-->  
+            <tr>
+                <td width="100px"> Attachment</td>
+                <td><input type="file"  name="Document"></td>
+            </tr>
+            <!--Text area-->
+            <tr>
+                <td width="100px">Comments:</td>
+                <td>
+                    <textarea rows="10" cols="25"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td width="100px"></td>
+                <td><input type="submit" name="submit" value="Submit"></td>
+            </tr>
+            </table>
+        </table>
+    </form>
+</body>
+</html>
